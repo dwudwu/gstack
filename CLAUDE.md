@@ -615,3 +615,42 @@ The active skill lives at `~/.claude/skills/gstack/`. After making changes:
 Or copy the binaries directly:
 - `cp browse/dist/browse ~/.claude/skills/gstack/browse/dist/browse`
 - `cp design/dist/design ~/.claude/skills/gstack/design/dist/design`
+
+## gstack
+
+Use the `/browse` skill from gstack for all web browsing. NEVER use `mcp__claude-in-chrome__*` tools.
+
+Available skills:
+- `/office-hours` — YC Office Hours (startup diagnostic + builder brainstorm)
+- `/plan-ceo-review` — CEO-level plan review
+- `/plan-eng-review` — Engineering plan review
+- `/plan-design-review` — Design plan review (report only)
+- `/design-consultation` — Design system from scratch
+- `/design-shotgun` — Visual design exploration
+- `/design-html` — Design to HTML
+- `/review` — PR review
+- `/ship` — Ship workflow
+- `/land-and-deploy` — Merge, deploy, canary verify
+- `/canary` — Post-deploy monitoring loop
+- `/benchmark` — Performance regression detection
+- `/browse` — Headless browser for QA and dogfooding
+- `/connect-chrome` — Launch GStack Browser (alias)
+- `/qa` — QA testing
+- `/qa-only` — Report-only QA (no fixes)
+- `/design-review` — Design audit + fix loop
+- `/setup-browser-cookies` — Browser cookie setup
+- `/setup-deploy` — One-time deploy config
+- `/retro` — Retrospective (includes global cross-project mode)
+- `/investigate` — Systematic root-cause debugging
+- `/document-release` — Post-ship doc updates
+- `/codex` — Multi-AI second opinion via OpenAI Codex CLI
+- `/cso` — OWASP Top 10 + STRIDE security audit
+- `/autoplan` — Auto-review pipeline (CEO → design → eng)
+- `/plan-devex-review` — DevEx plan review
+- `/devex-review` — DevEx review
+- `/careful` — Careful mode
+- `/freeze` — Freeze changes
+- `/guard` — Guard mode
+- `/unfreeze` — Unfreeze changes
+- `/gstack-upgrade` — Upgrade gstack
+- `/learn` — Learn from codebase
